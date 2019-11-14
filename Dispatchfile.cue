@@ -8,7 +8,7 @@ resource "src-git": {
 
 resource "gitops-git": {
   type: "git"
-  param url: "https://github.com/gpaul/hello-world-gitops"
+  param url: "https://github.com/jbarrick-mesosphere/hello-world-gitops"
 }
 
 resource "docker-image": {
