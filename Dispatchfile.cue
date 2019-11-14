@@ -13,7 +13,7 @@ resource "gitops-git": {
 
 resource "docker-image": {
   type: "image"
-  param url: "docker.io/gpaul/hello-world"
+  param url: "docker.io/mesosphere/hello-world"
   param digest: "$(inputs.resources.docker-image.digest)"
 }
 
